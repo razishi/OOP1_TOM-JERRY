@@ -1,0 +1,2 @@
+﻿file (GLOB_RECURSE MY_SOURCE_FILES CONFIGURE_DEPENDS LIST_DIRECTORIES false RELATIVE ${CMAKE_CURRENT_LIST_DIR} *.cpp)
+target_sources (${CMAKE_PROJECT_NAME} PRIVATE ${MY_SOURCE_FILES}  "../include/Globals.h"  "Controller.cpp" "../include/Controller.h" "../include/Board.h"  "Board.cpp"  "GameObject.cpp" "../include/Textures.h" "Textures.cpp" "../include/Play.h" "Play.cpp" "../include/DumbCat.h" "DumbCat.cpp" "../include/Freeze.h" "../include/Newtime.h" "Freeze.cpp" "Addlife.cpp" "Newtime.cpp"  "Sounds.cpp" "../include/Sounds.h")
